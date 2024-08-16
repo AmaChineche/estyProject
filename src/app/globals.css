@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(217, 228, 228);
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  box-shadow: 2px 3px 4px 4px black;
+  
+}
+.cart{
+  display: flex;
+  padding: 3px;
+  margin: 3px;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 10px;
+}
+.cart :hover{
+  background-color: gray;
+  border: 2px solid gray;
+  border-radius: 10px;
+
+}
+.iconbar{
+  display: flex;
+  justify-content: space-between;
+
+}
+.signin{
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+.signin :hover{
+  border-radius: 5px;
+  color: blue;
+ 
+  background-color: gray;
+}
